@@ -16,9 +16,9 @@ import br.edu.up.pedido.Pedido;
 
 public class Cardapio {
 	
-	private static String pratos = "C:\\Users\\Fernando\\eclipse-workspace\\ProgramaCardapioObj\\arquivos\\pratos.csv" ;
-	private static String bebidas = "C:\\Users\\Fernando\\eclipse-workspace\\ProgramaCardapioObj\\arquivos\\bebidas-tabuladas.txt";
-	private static String vinhos = "C:\\Users\\Fernando\\eclipse-workspace\\ProgramaCardapioObj\\arquivos\\vinhos-tabulados.txt";
+	private static String pratos = "C:\\Users\\Fernando\\eclipse-workspace\\aulas\\java\\ProgramaCardapioObj\\arquivos\\pratos.csv" ;
+	private static String bebidas = "C:\\Users\\Fernando\\eclipse-workspace\\aulas\\java\\ProgramaCardapioObj\\arquivos\\bebidas-tabuladas.txt";
+	private static String vinhos = "C:\\Users\\Fernando\\eclipse-workspace\\aulas\\java\\ProgramaCardapioObj\\arquivos\\vinhos-tabulados.txt";
 	
 	private static List<Item> listaDePratos;
 	private static List<Item> listaDeBebidas;
