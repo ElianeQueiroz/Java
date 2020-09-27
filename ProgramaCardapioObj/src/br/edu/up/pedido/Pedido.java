@@ -269,7 +269,7 @@ public class Pedido {
 			    arquivo = pedido;	
 			}
 			
-			FileWriter salvarPedido = new FileWriter("C:\\Projeto\\Faculdade\\Aula\\Java\\Saida\\"+arquivo);
+			FileWriter salvarPedido = new FileWriter("C:\\Users\\Fernando\\eclipse-workspace\\aulas\\java\\ProgramaCardapioObj\\arquivos\\Pedido\\"+arquivo);
 			PrintWriter gravador = new PrintWriter(salvarPedido);
 			gravador.println("Código;Descrição;Quantidade;Preço");		
 			for (ItemPedido itemPedido : listaItemsPedido) {
@@ -288,8 +288,8 @@ public class Pedido {
 		//ENTRADA
 		File arquivo;
 		
-		if ( new File("C:\\Projeto\\Faculdade\\Aula\\Java\\Saida\\" + numPedido).exists() ) {
-			arquivo = new File("C:\\Projeto\\Faculdade\\Aula\\Java\\Saida\\" + numPedido);
+		if ( new File("C:\\Users\\Fernando\\eclipse-workspace\\aulas\\java\\ProgramaCardapioObj\\arquivos\\Pedido\\" + numPedido).exists() ) {
+			arquivo = new File("C:\\Users\\Fernando\\eclipse-workspace\\aulas\\java\\ProgramaCardapioObj\\arquivos\\Pedido\\" + numPedido);
 			
 			Scanner leitor = new Scanner(new FileInputStream(arquivo));
 			leitor.nextLine();
