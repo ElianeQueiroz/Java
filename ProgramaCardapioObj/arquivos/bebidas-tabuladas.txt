@@ -1,0 +1,11 @@
+PRECO	BEBIDAS
+3,70	?gua mineral
+3,00	?gua mineral sem g?s
+5,00	?gua-de-coco
+7,60	Coca-Cola
+6,50	Fanta Laranja
+6,50	Fanta Uva
+5,50	Guaran?
+4,50	Limonada
+5,30	Pepsi
+4,70	Sprite
