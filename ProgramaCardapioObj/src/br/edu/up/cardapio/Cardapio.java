@@ -308,6 +308,8 @@ public class Cardapio {
 						System.out.println("Opção inválida!");
 					}					   	
 				} while ( bOpcao != true );
+		    } else {
+		    	opcaoSN = "N";
 		    }
 		    	
 		} while ( opcaoSN.equals("S") );
