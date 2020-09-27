@@ -282,8 +282,8 @@ public class Cardapio {
 		    	Item itemRetornado = Cardapio.buscarCodigo(opcao);
 		    	if ( itemRetornado != null  ) {
 		    		int qtde = 0;
-		    		System.out.println(itemRetornado);
-		    		System.out.println("Qtde: ");
+		    		System.out.print(itemRetornado);
+		    		System.out.print(" - Qtde: ");
 				    qtde = input.nextInt();
 				    input.nextLine();
 				    ItemPedido itemSelecionado = new ItemPedido( itemRetornado.getCodigo()
