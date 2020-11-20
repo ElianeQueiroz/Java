@@ -1,11 +1,8 @@
 package br.edu.up.sistema;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 import br.edu.up.cardapio.Cardapio;
-import br.edu.up.dominio.Item;
 import br.edu.up.pedido.Pedido;
 
 public class Programa {
@@ -35,5 +32,7 @@ public class Programa {
 			}
 				
 		} while ( menu != 3);
+		
+		input.close();
 	}
 }

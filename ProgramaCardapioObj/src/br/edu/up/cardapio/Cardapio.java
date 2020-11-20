@@ -12,7 +12,6 @@ import java.util.Scanner;
 
 import br.edu.up.dominio.Item;
 import br.edu.up.pedido.ItemPedido;
-import br.edu.up.pedido.Pedido;
 
 public class Cardapio {
 	
@@ -231,6 +230,7 @@ public class Cardapio {
 				break;
 			}
 	    } while ( opcao != 4 );
+    	input.close();
 	}
 	
 	public static void pedidoMenu(List<ItemPedido> lista) {
@@ -313,6 +313,7 @@ public class Cardapio {
 		    }
 		    	
 		} while ( opcaoSN.equals("S") );
+	    input.close();
 	}
 	
 	public static void opcaoManutencao(int categoria) {
@@ -409,6 +410,7 @@ public class Cardapio {
 				}	
 		    }	    	
 	    } while ( opcao != 5 );
+	    input.close();
 	}
 	
 	public static void recarregarListas() {

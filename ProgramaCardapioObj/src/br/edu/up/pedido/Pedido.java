@@ -14,7 +14,6 @@ import java.util.List;
 import java.util.Scanner;
 
 import br.edu.up.cardapio.Cardapio;
-import br.edu.up.dominio.Item;
 
 public class Pedido {
 	private static List<ItemPedido> listaItemsPedido;
@@ -33,7 +32,6 @@ public class Pedido {
 	    int qtde = 0;
 		String codigo = "";
 		ItemPedido itemSelecionado;
-		String opcaoSN = "S";
 		boolean bOpcao = true;
 	   
 	    listaItemsPedido = new ArrayList<ItemPedido>();
@@ -218,6 +216,8 @@ public class Pedido {
 				arquivo = "";
 			}
 		} while ( opcao != 5 );
+	    
+	    input.close();
 	    
 	    listaItemsPedido = null;
 	}
